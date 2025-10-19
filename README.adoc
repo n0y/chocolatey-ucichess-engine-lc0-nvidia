@@ -1,0 +1,27 @@
+= Nibbler - packaged by UCI-Chess
+
+This repository packages the
+https://lczero.org/[Leela Chess Zero]
+UCI chess engine as
+https://community.chocolatey.org/packages[Chocolatey Package].
+
+== Installation
+
+[source]
+----
+choco install ucichess-engine-lc0
+----
+
+== Notes
+
+This is only the Chocolatey packaging, not the package itself.
+
+== Authors
+
+* Bertram Fey <bertram.fey@deutschebahn.com>
+* and learning how to automate things from
+  https://www.dolthub.com/blog/2021-10-13-how-to-publish-winget-chocolatey-packages-with-github-actions/[Dustin Brown`s article].
+
+== License
+
+Under the link:LICENSE[Apache 2 License].

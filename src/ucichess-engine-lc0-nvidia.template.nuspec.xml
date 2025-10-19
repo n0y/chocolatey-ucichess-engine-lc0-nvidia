@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd nuspec.xsd">
+    <metadata>
+        <owners>Bertram Fey</owners>
+        <id>ucichess-engine-lc0-nvidia</id>
+        <version>%%VERSION%%</version>
+        <title>Leela Chess Zero Engine</title>
+        <authors>The Leela Chess Zero Authors</authors>
+        <summary>
+            Open source neural network chess engine with GPU acceleration and broad hardware support.
+        </summary>
+        <description>
+            Lc0 is a UCI-compliant chess engine designed to play chess via neural network, specifically those of the
+            LeelaChessZero project.
+        </description>
+        <projectUrl>https://github.com/LeelaChessZero/lc0</projectUrl>
+        <licenseUrl>https://github.com/LeelaChessZero/lc0/blob/master/COPYING</licenseUrl>
+        <tags>uci chess</tags>
+    </metadata>
+    <files>
+        <file src="tools\**" target="tools"/>
+    </files>
+</package>
