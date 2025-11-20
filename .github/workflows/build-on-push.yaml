@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - name: load current upstream version
         id: load_version
         run: cp versions.properties "$GITHUB_OUTPUT"
