@@ -17,7 +17,7 @@ jobs:
       - name: load current upstream version
         id: load_version
         run: cp versions.properties "$GITHUB_OUTPUT"
-      - uses: mukunku/tag-exists-action@v1.6.0
+      - uses: mukunku/tag-exists-action@v1.7.0
         id: check-tag
         with:
           tag: '${{steps.load_version.outputs.UPSTREAM_VERSION}}'
