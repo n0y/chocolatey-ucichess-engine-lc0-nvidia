@@ -27,7 +27,7 @@ jobs:
         run: .\build-source-release.ps1
 
       - name: Create Release
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           tag_name: ${{ steps.prepare_release.outputs.UPSTREAM_VERSION }}
           body: bumping version to ${{ steps.prepare_release.outputs.UPSTREAM_VERSION }}, because upstream released a new version
