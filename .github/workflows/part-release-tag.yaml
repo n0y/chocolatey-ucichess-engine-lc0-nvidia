@@ -9,7 +9,7 @@ jobs:
       run:
         shell: powershell
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
       - name: download target directory
         uses: actions/download-artifact@v8
         with:
